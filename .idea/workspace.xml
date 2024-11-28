@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6776a9dd-b485-43b4-a9b6-d9294c69e147" name="Changes" comment="Singleton,Strategy and Observer pattern implementation" />
+    <list default="true" id="6776a9dd-b485-43b4-a9b6-d9294c69e147" name="Changes" comment="added idea to gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,11 +78,19 @@
       <option name="project" value="LOCAL" />
       <updated>1732814468138</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added idea to gitignore">
+      <created>1732814708617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732814708617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton,Strategy and Observer pattern implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton,Strategy and Observer pattern implementation" />
+    <MESSAGE value="added idea to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added idea to gitignore" />
   </component>
 </project>
