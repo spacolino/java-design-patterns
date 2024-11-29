@@ -65,6 +65,15 @@
                             <mainClass>com.patterns.examples.BuilderPatternExample</mainClass>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>run-adapter-example</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>com.patterns.examples.AdapterPatternExample</mainClass>
+                        </configuration>
+                    </execution>
                     <!-- Add more executions as needed -->
                 </executions>
             </plugin>

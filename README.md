@@ -26,6 +26,11 @@ Three different implementations showing:
 - **Example**: Constructs configuration objects with numerous optional parameters.
 - **Usage**: Ideal for constructing objects with many parameters or configurations.
 
+### Adapter Pattern
+- **Description**: Allows incompatible interfaces to work together by acting as a bridge between them.
+- **Example**: Integrates different media players to support multiple audio formats like MP3, VLC, and MP4 using an adapter.
+- **Usage**: Useful for integrating legacy systems, adapting third-party libraries, or making diverse UI components work together.
+
 ## Project Structure
 ```bash
 java-design-patterns/
@@ -38,12 +43,14 @@ java-design-patterns/
 │ │ │ └── stock/
 │ │ ├── singleton/
 │ │ ├── builder/
+│ │ ├── adapter/
 │ │ └── examples/
 │ └── test/java/com/patterns/
 │ ├── strategy/
 │ ├── observer/
 │ ├── singleton/
-│ └── builder/
+│ ├── builder/
+│ └── adapter/
 └── pom.xml
 ```
 
@@ -86,6 +93,9 @@ mvn exec:java@run-singleton-example
 
 # Builder Pattern Example
 mvn exec:java@run-builder-example
+
+# Adapter Pattern Example
+mvn exec:java@run-adapter-example
 
 ```
 ### Testing
