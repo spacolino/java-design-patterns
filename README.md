@@ -27,6 +27,7 @@ Three different implementations showing:
 - **Usage**: Ideal for constructing objects with many parameters or configurations.
 
 ## Project Structure
+```bash
 java-design-patterns/
 ├── src/
 │ ├── main/java/com/patterns/
@@ -44,6 +45,7 @@ java-design-patterns/
 │ ├── singleton/
 │ └── builder/
 └── pom.xml
+```
 
 
 ## Requirements
