@@ -21,6 +21,11 @@ Three different implementations showing:
 - Database connection pooling
 - Enum-based singleton
 
+### Builder Pattern
+- **Description**: Facilitates the construction of complex objects step-by-step.
+- **Example**: Constructs configuration objects with numerous optional parameters.
+- **Usage**: Ideal for constructing objects with many parameters or configurations.
+
 ## Project Structure
 java-design-patterns/
 ├── src/
@@ -31,18 +36,20 @@ java-design-patterns/
 │ │ │ ├── news/
 │ │ │ └── stock/
 │ │ ├── singleton/
+│ │ ├── builder/
 │ │ └── examples/
 │ └── test/java/com/patterns/
 │ ├── strategy/
 │ ├── observer/
-│ └── singleton/
+│ ├── singleton/
+│ └── builder/
 └── pom.xml
 
 
 ## Requirements
-- Java 11 or higher
+- Java 17 or higher
 - Maven 3.6 or higher
-- IntelliJ IDEA (recommended)
+- IntelliJ IDEA Community Edition (recommended)
 
 ## Setup Instructions
 
@@ -67,13 +74,16 @@ Each pattern has its own example class in the `com.patterns.examples` package:
 
 ```bash
 # Strategy Pattern
-mvn exec:java -Dexec.mainClass="com.patterns.examples.StrategyPatternExample"
+mvn exec:java@run-strategy-example
 
 # Observer Pattern
-mvn exec:java -Dexec.mainClass="com.patterns.examples.ObserverPatternExample"
+mvn exec:java@run-observer-example
 
 # Singleton Pattern
-mvn exec:java -Dexec.mainClass="com.patterns.examples.SingletonPatternExample"
+mvn exec:java@run-singleton-example
+
+# Builder Pattern Example
+mvn exec:java@run-builder-example
 
 ```
 ### Testing

@@ -22,4 +22,52 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.1</version>
+                <executions>
+                    <execution>
+                        <id>run-strategy-example</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>com.patterns.examples.StrategyPatternExample</mainClass>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>run-observer-example</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>com.patterns.examples.ObserverPatternExample</mainClass>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>run-singleton-example</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>com.patterns.examples.SingletonPatternExample</mainClass>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>run-builder-example</id>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                        <configuration>
+                            <mainClass>com.patterns.examples.BuilderPatternExample</mainClass>
+                        </configuration>
+                    </execution>
+                    <!-- Add more executions as needed -->
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
